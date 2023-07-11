@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+p{
+    font-family: 'Roboto Mono', monospace;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+h2{
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3{
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+main{
+    background-color: #97c0d8;
+    padding: 1.5rem;
+}
+
+img{
+    width: 60%;
+    border-radius: 5%;
+}
+
+.img-mia{
+    display: flex;
+    justify-content: center;
+}
+
+header, footer{
+    background-color: #2b3d4f;
+    padding: 1.5rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contenedor-main{
+    margin-bottom: 2rem;
+}
+
+.trabajos{
+    background-color: #8c98f3;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: solid;
+    border-color: #2b3d4f;
+    margin-bottom: 1rem;
+}
+
+.estudios {
+    background-color: #dffbfc;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: solid;
+    border-color: #2b3d4f;
+    margin-bottom: 1rem;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+#contacto ul{
+    display: flex;
+}
+
+footer img{
+    margin-right: .75rem;
+    width: 2rem;
+}
+
+footer h4{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 1rem;
+}
+
+#secciones ul li a{
+    margin-bottom: .5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+#creador{
+    grid-column: 1 / 3;
+}
