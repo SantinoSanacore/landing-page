@@ -31,6 +31,11 @@ nav ul{
     justify-items: center;
 }
 
+nav ul li:hover{
+    background-color: #3c4f61;
+    border-radius: 1rem;
+}
+
 main{
     background-color: #97c0d8;
     padding: 1.5rem;
@@ -53,6 +58,7 @@ header, footer{
 
 ul li {
     list-style-type: none;
+    padding: 1rem;
 }
 
 a{
@@ -91,6 +97,12 @@ footer{
 
 #contacto ul{
     display: flex;
+    padding: 1rem;
+}
+
+#contacto ul li:hover{
+    background-color: #3c4f61;
+    border-radius: 1rem;
 }
 
 footer img{
@@ -105,9 +117,14 @@ footer h4{
 
 #secciones ul li a{
     margin-bottom: .5rem;
+    padding: 1rem;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     color: black;
+}
+#secciones ul li a:hover{
+    background-color: #3c4f61;
+    border-radius: 1rem;
 }
 
 #creador{
